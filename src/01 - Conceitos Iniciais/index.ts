@@ -9,7 +9,7 @@ console.log(result);
 
 // interface
 interface TemNome {
-  name: String;
+  name: string;
 }
 
 class Aluno implements TemNome {
