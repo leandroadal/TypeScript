@@ -1,12 +1,12 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    //"noEmitOnError": true, // * ja que nos exemplos tem código que não funciona
+    "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
+    //"allowJs": true,
     // File Layout
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./frontend/assets/js",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
@@ -16,9 +16,9 @@
       "esnext",
       "DOM"
     ],
-    "types": [
-      "node"
-    ],
+    //"types": [
+    //  "node"
+    //],
     // and npm install -D @types/node
     // Other Outputs
     "sourceMap": true,

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -12,14 +14,18 @@
   "type": "module",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "globals": "^17.6.0",
     "prettier": "3.8.3",
+    "ts-loader": "^9.5.7",
     "ts-node": "^10.9.2",
     "tsx": "^4.22.3",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.60.0"
+    "typescript-eslint": "^8.60.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.2"
   }
 }
