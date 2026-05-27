@@ -44,7 +44,7 @@
     "skipLibCheck": true,
   },
   "include": [
-    "src"
+    "src/20 - form-validation"
   ],
   "exclude": [
     "node_modules"

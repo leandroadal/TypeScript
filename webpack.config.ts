@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const config: webpack.Configuration = {
   mode: 'development',
-  entry: './src/19 - webpack/index.ts',
+  entry: './src/20 - form-validation/index.ts',
   module: {
     rules: [
       {
@@ -22,6 +22,10 @@ const config: webpack.Configuration = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    // Pro webpack achar o arquivo .ts ao procurar o .js
+    extensionAlias: {
+      '.js': ['.ts', '.tsx', '.js'],
+    },
   },
   output: {
     filename: 'bundle.js',
