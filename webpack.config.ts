@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const config: webpack.Configuration = {
   mode: 'development',
-  entry: './src/20 - form-validation/index.ts',
+  entry: './src/37 - using-interfaces-and-class/index.ts',
   module: {
     rules: [
       {
