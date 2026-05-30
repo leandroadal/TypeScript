@@ -9,11 +9,13 @@
     "outDir": "./dist",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "es2022",
     "target": "ES2021",
     // For nodejs:
     // "lib": ["esnext", "DOM"],
-    // "types": [ "node"],
+    "types": [
+      "node"
+    ],
     // and npm install -D @types/node
     // Other Outputs
     "sourceMap": true,
