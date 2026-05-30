@@ -87,6 +87,8 @@ export class Animal {
   ) {}
 }
 
+// new (...args: any[]) => any    Representa o construtor de uma classe
+// Então limita o T a ser uma classe
 function decorator<T extends new (...args: any[]) => any>(target: T): T {
   return class extends target {
     cor: string;

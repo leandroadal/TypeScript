@@ -49,7 +49,8 @@ console.log(user, user2);
 interface Constructor2 {
   new (...args: any[]): any;
 }
-
+// A função de fora recebe os parâmetros do decorator
+// E as função de dentro usa através do closure
 function inverteNomeECor(param1: string, param2: string) {
   return function (target: Constructor2) {
     console.log('Sou o decorador e recebi', target);
