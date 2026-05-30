@@ -10,7 +10,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
-    "target": "esnext",
+    "target": "ES2021",
     // For nodejs:
     // "lib": ["esnext", "DOM"],
     // "types": [ "node"],
@@ -37,7 +37,9 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    // Remover essas duas config para usar decorators novos do padrão TC39 (adotado no TypeScript 5.0+) e es2022+
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false
   },
   "include": [
     "src"

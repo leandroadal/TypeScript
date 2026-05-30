@@ -29,6 +29,7 @@
     "webpack-cli": "^7.0.2"
   },
   "dependencies": {
+    "reflect-metadata": "^0.2.2",
     "validator": "^13.15.35"
   }
 }
